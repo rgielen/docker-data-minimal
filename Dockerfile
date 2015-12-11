@@ -1,3 +1,3 @@
 FROM scratch
-ADD bin/message /message
-CMD ["/message"]
+ADD bin/docker-data-minimal /docker-data-minimal
+CMD ["/docker-data-minimal"]
